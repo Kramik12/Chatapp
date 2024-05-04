@@ -7,17 +7,20 @@
 
 .container{
     margin: auto;
-    background-color: rgb(200, 231, 159);
+    border: 2px solid black;
     max-width: 955px;
     height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
 }
 
 .message{
-    background-color: grey;
+    background-color: rgb(113, 151, 204);
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
-    border: 2px solid black;
+    /* border: 2px solid rgb(229, 227, 227); */
     border-radius: 10px;
 
 }
@@ -28,4 +31,30 @@
 .right{
     float: right;
     clear: both;
+}
+
+#semd-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(white, rgb(107, 58, 107));
 }
